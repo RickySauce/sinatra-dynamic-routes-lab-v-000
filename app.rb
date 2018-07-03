@@ -11,6 +11,5 @@ class App < Sinatra::Base
     @result = params[:number].to_i**2
     "#{@result}"
   end
-  
-end
 
+end
